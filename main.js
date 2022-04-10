@@ -62,6 +62,10 @@ function play() {
   }
 
   if (chance == 0) {
+    playButton.style.backgroundColor = '#dfe6e9';
+  }
+
+  if (chance == 0) {
     gameOver = true;
   }
 
