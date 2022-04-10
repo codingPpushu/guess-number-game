@@ -20,3 +20,6 @@
 - 게임이 종료되거나 기회가 0번이면 Go 버튼은 비활성화 된다.
 - Reset 버튼을 클릭하면 게임이 초기화 된다.
 - 반응형 UI
+
+## 🎮 Go
+- https://codingppushu-guess-game.netlify.app/
