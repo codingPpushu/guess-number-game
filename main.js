@@ -1,9 +1,9 @@
-const resultText = document.querySelector('.result-text');
-const resultImg = document.querySelector('.result-img');
-const chanceText = document.querySelector('.chance-text');
-const inputElem = document.querySelector('.input');
-const playButton = document.querySelector('.play-btn');
-const resetElem = document.querySelector('.reset-btn');
+let resultText = document.querySelector('.result-text');
+let resultImg = document.querySelector('.result-img');
+let chanceText = document.querySelector('.chance-text');
+let inputElem = document.querySelector('.input');
+let playButton = document.querySelector('.play-btn');
+let resetElem = document.querySelector('.reset-btn');
 
 let computerNum = 0;
 let gameOver = false;
@@ -79,6 +79,7 @@ function reset() {
   focusInput();
   resultImg.src = 'images/opening.gif';
   resultText.textContent = '🚀 숫자를 맞춰보세요 🚀';
+  playButton.style.backgroundColor = '#74b9ff';
   gameOver = false;
   chance = 5;
   playButton.disabled = false;
